@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
       },
+      height: {
+        '0.25': '1px',
+      },
       width: {
         '375': '375px',
         '1440': '1440px',
