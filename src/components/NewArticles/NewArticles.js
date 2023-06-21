@@ -1,9 +1,9 @@
 import React from 'react'
 import NewArticle from '../NewArticle/NewArticle'
 
-function NewArticles() {
+function NewArticles({ className }) {
   return (
-    <div className='bg-very-dark-blue text-off-white font-inter max-w-xs'>
+    <div className={`bg-very-dark-blue text-off-white font-inter max-w-xs ${className}`}>
       <div className='px-6 py-8 h-full'>
         <h1 className='text-soft-orange font-semibold text-4xl mb-6'>New</h1>
 

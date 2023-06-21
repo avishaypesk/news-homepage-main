@@ -514,8 +514,8 @@ video {
 .h-0 {
   height: 0px;
 }
-.h-0\.5 {
-  height: 0.125rem;
+.h-0\.25 {
+  height: 1px;
 }
 .h-full {
   height: 100%;
@@ -563,6 +563,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.bg-dark-grayish-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 92 104 / var(--tw-bg-opacity));
 }
 .bg-grayish-blue {
   --tw-bg-opacity: 1;
