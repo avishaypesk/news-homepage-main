@@ -18,7 +18,7 @@ function MainArticle({ className }) {
     }, []);
 
     return (
-        <article className={`font-inter lg:grid lg:grid-cols-2 lg:grid-rows-[fr,auto] lg:gap-8 ${className}`}>
+        <article className={`font-inter min-w-1/2 lg:grid lg:grid-cols-2 lg:grid-rows-[fr,auto] lg:gap-8 ${className}`}>
             <img className="col-span-2" src={isMobile ? web3mobile : web3} alt='Web 3 illustration' />
             <h1 className='text-very-dark-blue font-extrabold text-5xl col-start-1 col-end-2 row-start-2 row-end-3 py-6 lg:py-0 lg:pr-6'>The Bright Future of Web 3.0?</h1>
             <div className='col-start-2 col-end-3 row-start-2 row-end-3 flex flex-col text-[15px]'>
