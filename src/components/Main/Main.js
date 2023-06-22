@@ -5,7 +5,7 @@ import NewArticles from '../NewArticles/NewArticles'
 
 function Main() {
     return (
-        <div className='pt-12 grid grid-cols-[auto] grid-rows-2 gap-8'>
+        <div className='flex flex-col space-y-12 lg:space-y-0 pt-12 lg:grid lg:grid-cols-[auto] lg:grid-rows-2 lg:gap-8'>
             <MainArticle className="col-span-2 row-span-2"/>
             <NewArticles className="col-start-3 row-span-2"/>
             <ArticleList className="col-span-3"/>

@@ -5,9 +5,9 @@ import Main from "../Main/Main";
 function App() {
 
   return (
-    <div className="bg-grayish-blue min-h-screen">
-      <div className="w-375 sm:w-1440 h-screen bg-off-white mx-auto">
-        <div className="px-48 pt-24">
+    <div className="bg-grayish-blue min-h-screen ">
+      <div className="px-4 lg:px-0 w-full lg:w-1440 min-h-screen bg-off-white mx-auto">
+        <div className="py-8 lg:px-48 lg:py-16">
           <Header />
           <Main />
         </div>

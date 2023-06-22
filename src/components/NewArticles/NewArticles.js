@@ -3,7 +3,7 @@ import NewArticle from '../NewArticle/NewArticle'
 
 function NewArticles({ className }) {
   return (
-    <div className={`bg-very-dark-blue text-off-white font-inter w-80 ${className}`}>
+    <div className={`bg-very-dark-blue text-off-white font-inter sm:w-80 ${className}`}>
       <div className='p-8 h-full'>
         <h1 className='text-soft-orange font-semibold text-4xl mb-6'>New</h1>
 
