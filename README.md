@@ -16,9 +16,7 @@ Users should be able to:
 ![](./src/assets/images/screenshot.JPG)
 ### Link
 
-- Solution URL: [Add solution URL here](https://avishaypesk.github.io/news-homepage-main/)
-
-## My process
+- Solution URL: [Github Pages](https://avishaypesk.github.io/news-homepage-main/)
 
 ### Built with
 
