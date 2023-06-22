@@ -2,6 +2,7 @@
   "name": "news-homepage-main",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://avishaypesk.github.io/news-homepage-main",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,6 +15,8 @@
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "npm run build:css && react-scripts build",
     "build:css": "postcss src/tailwind.css -o src/index.css",
     "watch:css": "postcss src/tailwind.css -o src/index.css"
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.3.2"
